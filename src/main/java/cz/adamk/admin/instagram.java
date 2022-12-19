@@ -10,7 +10,7 @@ public class instagram implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player = (Player) sender;
-        player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cSystém &8| &7Instagram: &chttps://www.instagram.com/darkgames.eu"));
+        player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cMy name is vadys and i love coding!"));
         return false;
     }
 }

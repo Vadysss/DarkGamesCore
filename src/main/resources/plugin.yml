@@ -1,0 +1,16 @@
+name: Admin
+version: '${project.version}'
+main: cz.adamk.admin.Admin
+api-version: 1.19
+authors: [ Vadys_ ]
+description: Admin plugin
+
+commands:
+  discord:
+    description: Discord command
+  web:
+    description: Web command
+  tiktok:
+    description: Tiktok command
+  instagram:
+    description: Instagram command
