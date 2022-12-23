@@ -6,11 +6,12 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class instagram implements CommandExecutor {
+public class vote implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player = (Player) sender;
-        player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cSystém &8| &7Instragram: &chttps://dsc.gg/darkgamesmc"));
+        String nick = player.getPlayer().getDisplayName();
+        player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cVote &8| &7Hlasuj za náš server na: &chttps://craftlist.org/rajce?nickname=" + nick));
         return false;
     }
 }
